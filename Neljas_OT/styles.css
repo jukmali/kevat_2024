@@ -1,0 +1,30 @@
+table, th,td{
+    border: 1px solid black;
+} 
+
+tr:first-of-type{
+    background-color: #48c538;
+}
+
+tr:nth-child(even){
+    background-color: #cfcae2;
+}
+
+.myButton {
+    color: rgb(255, 255, 255); 
+    font-size: 25px; 
+    line-height: 25px; 
+    padding: 6px; border-radius: 7px; 
+    font-family: Georgia, serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(to right, rgb(127, 164, 53) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
+    box-shadow: rgb(0, 0, 0) 16px -6px 17px 7px; border: 2px solid rgb(28, 110, 164); 
+    display: inline-block;}
+    .myButton:hover {
+    background: #7FA435; }
+    .myButton:active {
+    background: #144E75; }
